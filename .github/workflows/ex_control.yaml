@@ -1,3 +1,6 @@
+name: create commit
+on: push
+jobs:
 create_commit:
   runs-on: ubuntu-latest
   permissions:
